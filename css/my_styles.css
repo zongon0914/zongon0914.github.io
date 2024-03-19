@@ -24,3 +24,12 @@ body{
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-family: 'Noto Serif TC', sans-serif;
 }
+
+.expedu_icon{
+    color: red;
+}
+
+.expedu_icon:hover{
+    color: #f0ffff;
+    background-color: red;
+}
