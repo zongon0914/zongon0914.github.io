@@ -38,5 +38,13 @@ p#redred{
     background-color: black;
     color: white;
     border: 20px solid red;
-
 }
+
+.bg-primary{
+    background-color: white !important; 
+    background-image: url(../assets/img/profile.jpg);
+    background-repeat:no-repeat ;
+    background-size: contain ;
+}
+
+
