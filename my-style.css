@@ -138,7 +138,78 @@ header a:hover {
     font-size:14px;
     line-height: 1.6em;
 }
-       
+.awards ul {
+    line-height:80px;
+}
+.awards li {
+    display:inline; 
+    font-size: large; 
+}
+.awards a {
+    color:white;
+    text-decoration: none;
+}
+.awards a:hover {
+    text-decoration: underline;
+}
+.social ul {
+    position:absolute;
+    right: 3vw;
+    bottom: -350px;
+    line-height:80px;
+}
+.social li {
+    display:inline; 
+    font-size: large;
+    margin-right:4vw; 
+}
+.social a {
+    color:grey;
+    text-decoration: none;
+}
+.social a:hover {
+    text-decoration: underline;
+}
+.social p {
+    position:absolute;
+    right: 25vw;
+    bottom: -325px;
+    line-height:80px;
+    font-size: 100px;
+    display:inline; 
+    margin-right:4vw; 
+    color:grey;
+    text-decoration: none;
+}
+
+.intro {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 180px 80px;
+    margin: 30px 50px;
+    text-align:center;
+}
+.intro div {
+    width:70%;
+    text-align:center;
+}
+.intro img {
+    width:150%;
+    border-radius: 10px;
+    position: relative;
+    right: 80px;
+}
+.intro h3 {
+    font-size: 20px;    
+    margin: 20px 0;
+}
+.intro p {
+    font-size:14px;
+    line-height: 1.6em;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Noto Serif TC', sans-serif;
     }
